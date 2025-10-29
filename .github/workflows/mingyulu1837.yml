@@ -1,20 +1,19 @@
 name: mingyulu1837
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 1/6 * * *'
+    - cron: '44 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: mingyulu1837
         env:
-          q697: ${{ secrets.q697 }}
+          lgf00: ${{ secrets.lgf00 }}
         run: |
-          echo $q697 | jq -r .y562 | /bin/bash
-          echo $hruk5 | jq -r .rf1 | /bin/bash
-          echo $ro6772 | jq -r .ariv46452 | /bin/bash
-          echo $qbgy640 | jq -r .jrgb9643 | /bin/bash
+          echo $lgf00 | jq -r .tvq83 | /bin/bash
+          echo $zp7 | jq -r .hoku77502 | /bin/bash
+          echo $t77879 | jq -r .rp80394 | /bin/bash
 
